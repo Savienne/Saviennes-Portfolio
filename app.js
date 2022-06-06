@@ -3,3 +3,5 @@ import{ myworksArray } from './data/app2.js'
 //     console.log(work)
 // )
 console.log(myworksArray)
+
+
