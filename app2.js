@@ -1,4 +1,4 @@
-Const myworkArray = [
+Const myworksArray = [
 {
     Image: "Snapshot of TTT"
     Title: "Tic Tac Toe"
