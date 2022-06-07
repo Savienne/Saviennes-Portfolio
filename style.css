@@ -1,12 +1,13 @@
-body{
-  background-image: url("/assets/background.jpg");
-  /* background-size: 100vw 100vh; */
-  background-size: cover;
-  background-repeat: no-repeat;
-  --light-dark-btn-bg: #1d1e2b;
-  --light-dark-btn-content: "Dark Mode";
+  body {
+      background-image: url("/assets/background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      --light-dark-btn-bg: #1d1e2b;
+      --light-dark-btn-content: "Dark Mode";
+    
+  }
 
-}
+
 
 nav ul{
   background: #000;
@@ -31,7 +32,7 @@ nav ul li {
   text-align: center;
   color: white
 }
-
+ */
 .sidebar header{
   font-size: 22px;
   color: white;
@@ -39,7 +40,7 @@ nav ul li {
   line-height: 70px;
   background: rgb(20, 92, 143);
 }
- */
+
 
 .modal {
   display: none;
