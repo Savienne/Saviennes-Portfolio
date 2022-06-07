@@ -3,10 +3,13 @@ import{ myworksArray } from './data/app2.js'
 //     console.log(work)
 // )
 // console.log(myworksArray)
+const lightDarkBtn = document.querySelector("#light-dark-button")
 lightDarkBtn.addEventListener("click", toggleLightDark)
+const body = document.querySelector("body")
 
 
 function toggleLightDark() {
+    console.log('test')
     body.className = body.className === "dark" ? "" : "dark"
   }
   

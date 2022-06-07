@@ -1,6 +1,7 @@
 body{
   background-image: url("/assets/background.jpg");
-  background-size: 100vw 100vh;
+  /* background-size: 100vw 100vh; */
+  background-size: cover;
   background-repeat: no-repeat;
   --light-dark-btn-bg: #1d1e2b;
   --light-dark-btn-content: "Dark Mode";
@@ -21,7 +22,7 @@ nav ul li {
 }
 
 
-.sidebar{
+/* .sidebar{
   position: fixed;
   left: 0;
   width: 250px;
@@ -38,7 +39,7 @@ nav ul li {
   line-height: 70px;
   background: rgb(20, 92, 143);
 }
-
+ */
 
 .modal {
   display: none;
@@ -80,9 +81,13 @@ nav ul li {
   to {top:0; opacity:1}
 }
 
-img[src="/assets/background.jpg"] {
-max-width: auto;
-max-height: 300;
+
+
+.btn {
+  color: var(--btn-text-color);
+  border: none;
+	font-weight: 600;
+  font-size: 24px;
 }
 
 #light-dark-btn {
@@ -93,3 +98,9 @@ max-height: 300;
 #light-dark-button::after {
   content: var(--light-dark-btn-content)
 }
+
+ #ttt {
+  width: 200px;
+  height: 200px;
+  
+  }
