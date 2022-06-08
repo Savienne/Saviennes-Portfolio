@@ -36,3 +36,12 @@ const myworksArray = [
       modal.style.display = "none"
     }
   }
+
+  const foxSays = new Audio ('../audio/fox.mp3')
+  const foxImg = document.querySelector('#fox') 
+  
+  
+  foxImg.addEventListener('click', function'(evt) {
+    foxSays.volume = .10
+    foxSays.play()
+  })

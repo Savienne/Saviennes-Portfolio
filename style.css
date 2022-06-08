@@ -101,10 +101,15 @@ nav ul li {
 }
 
  #ttt {
-  width: 200px;
-  height: 200px;
-
+  width: 50px;
+  height: 50px;
+float: right;
   }
+#gg {
+  width: 80px;
+  height: 80px;
+  float: right;
+}
 
   body.dark {
     --body-bg: #22232b;
@@ -122,3 +127,7 @@ nav ul li {
       #2a4f63, #264c61, #224860, #1e455e, #173757, #18294e, #1d1941, #210632);
     background-color: var(--body-bg);
   }
+
+
+
+  
