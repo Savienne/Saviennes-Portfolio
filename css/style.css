@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   --light-dark-btn-bg: #1d1e2b;
   --light-dark-btn-content: "Dark Mode";
+  color: white;
 }
 
 
@@ -20,17 +21,16 @@ nav ul li {
   margin: 20px 30px;
   color: white
 }
-/* .sidebar{
-  position: flo
-at;
+/* #sidebar{
+  position: fixed;
   left: 0;
-  width: 50px;
-  height: 50%;
+  width: 300px;
+  height: 300px;
   background: rgb(213, 182, 89);
   text-align: center;
-  color: white
+  color: white */
   
-  .sidebar header{
+  /* .sidebar header{
     position: float-left;
     font-size: 22px;
     color: white;
@@ -38,7 +38,7 @@ at;
     line-height: 70px;
     background: rgb(20, 92, 143);
   } */
-
+ */
   
 .modal {
   display: none;
@@ -138,4 +138,8 @@ float: right;
   overflow: scroll;
     max-height: 200px;
 
+  }
+
+  .h1 {
+    color: white;
   }
