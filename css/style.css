@@ -1,11 +1,10 @@
-  body {
-      background-image: url("/assets/background.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      --light-dark-btn-bg: #1d1e2b;
-      --light-dark-btn-content: "Dark Mode";
-    
-  }
+body {
+  background-image: url("/assets/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  --light-dark-btn-bg: #1d1e2b;
+  --light-dark-btn-content: "Dark Mode";
+}
 
 
 
@@ -125,12 +124,18 @@ float: right;
     --ye: linear-gradient(to right top, #213555, #213c59, #22425d, #254960,
       #2a4f63, #264c61, #224860, #1e455e, #173757, #18294e, #1d1941, #210632);
     background-color: var(--body-bg);
+    background-image: none;
   }
 
 
 .accordion {
   float: right;
   flex-direction: column;
-  display: f
+  max-width: 200px;
 }
+.accordion-body {
   
+  overflow: scroll;
+    max-height: 200px;
+
+  }

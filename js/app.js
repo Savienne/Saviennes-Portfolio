@@ -1,8 +1,8 @@
 import{ myworksArray } from './portfolio-data.js'
-// myworksArray.forEach(work=>
-//     console.log(work)
-// )
-// console.log(myworksArray)
+
+
+
+
 const lightDarkBtn = document.querySelector("#light-dark-button")
 lightDarkBtn.addEventListener("click", toggleLightDark)
 const body = document.querySelector("body")
