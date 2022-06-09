@@ -167,9 +167,10 @@ a.btn.btn-primary{
 
 @media all and (max-width: 480px){
   div.card-body{
-    width: 40%;
+    /* height: ; */
+    width: 480%;
     padding: 0;
     margin: 0;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
