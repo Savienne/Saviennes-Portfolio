@@ -68,8 +68,22 @@ modalBtn.onclick = function(){
   }
 
 
-  const portfoliosound = new Audio('../assets/audio/Future.mp3')
-  // console.log(modalBtn)
+  const birdSays = new Audio('assets/audio/realbirdsound.mp3')
+  
+const birdImg = document.querySelector('#bird')
+// console.log(birdImg)
+birdImg.addEventListener('click', function(evt){
+  // console.log(evt.target)
+  birdSays.volume = .20
+  birdSays.play()
+})
+
+
+
+
+
+
+
   modalBtn.addEventListener('click', function(evt){
     console.log(evt.target)
     portfoliosound.volume = .10
