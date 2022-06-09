@@ -1,49 +1,42 @@
 const myworksArray = [
   {
-      image: "Snapshot of TTT",
-      title: "Tic Tac Toe",
+    title: "Tic Tac Toe",
+    deploymentLink:"https://tttsavy.netlify.app",
+    image: 'assets/images/tic-tac-toe.png',
+    githubLink:"https://github.com/Savienne/ttt-weekend",
       description:"My first game, Tic Tac Toe!",
-      githubLink:"Here is my GH Link",
-      deploymentLink:"Here is the Site",
   },
   {
-      image: "Snapshot of Guess the Number Game",
-      title: "Guess The Number Game",
-      description:"Guess The Number Project",
-      githubLink:"Here is my GH Link",
-      deploymentLink:"Here is the Site",
+    title: 'Guess The Number Game',
+    deploymentLink:'Here is the Site',
+      image: 'assets/images/guessing-game.png',
+      githubLink:'https://github.com/Savienne/guess-the-number-lab',
+      description:'Guess The Number Project',
   
   
   }
   
   
-  ]
+]
   export {
       myworksArray
       
   }
-let modalBtn = document.getElementById("modal-btn")
-let modal = document.querySelector(".modal")
-let closeBtn = document.querySelector(".close-btn")
-modalBtn.onclick = function(){
-  modal.style.display = "block"
+
+
+  function toggleLightDark() {
+    // console.log('test')
+    body.className = body.className === "dark" ? "" : "dark"
   }
-  closeBtn.onclick = function(){
-    modal.style.display = "none"
-  }
-  window.onclick = function(e){
-    if(e.target == modal){
-      modal.style.display = "none"
+  
+  function checkDarkPref() {
+    if(
+      window.matchMedia("(prefers-color-scheme:dark)").matches && 
+      body.className !== "dark"
+    ) {
+      toggleLightDark()
     }
   }
-
-  const portfoliosound = new Audio('../assets/audio/Future.mp3')
-  // console.log(modalBtn)
-  modalBtn.addEventListener('click', function(evt){
-    console.log(evt.target)
-    portfoliosound.volume = .10
-    portfoliosound.play()
-  })
-    
+  checkDarkPref()  
 
   
