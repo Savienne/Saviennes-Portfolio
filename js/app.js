@@ -30,37 +30,39 @@ const body = document.querySelector("body")
 
 
 function toggleLightDark() {
-    // console.log('test')
-    body.className = body.className === "dark" ? "" : "dark"
-  }
+  body.className = body.className === "dark" ? "" : "dark"
+}
   
-  function checkDarkPref() {
-    if(
-      window.matchMedia("(prefers-color-scheme:dark)").matches && 
-      body.className !== "dark"
-    ) {
-      toggleLightDark()
-    }
+function checkDarkPref() {
+  if(
+    window.matchMedia("(prefers-color-scheme:dark)").matches && 
+    body.className !== "dark"
+  ) {
+    toggleLightDark()
   }
-  checkDarkPref()  
+} 
 
-  let modalBtn = document.getElementById("modal-btn")
+checkDarkPref() 
+
+let modalBtn = document.getElementById("modal-btn")
 let modal = document.querySelector(".modal")
 let closeBtn = document.querySelector(".close-btn")
+
 modalBtn.onclick = function(){
   modal.style.display = "block"
-  }
-  closeBtn.onclick = function(){
+}
+
+closeBtn.onclick = function(){
+  modal.style.display = "none"
+}
+  
+window.onclick = function(e){
+  if(e.target == modal){
     modal.style.display = "none"
   }
-  window.onclick = function(e){
-    if(e.target == modal){
-      modal.style.display = "none"
-    }
-  }
+}
 
-
-  const birdSays = new Audio('assets/audio/realbirdsound.mp3')
+const birdSays = new Audio('assets/audio/realbirdsound.mp3')
   
 const birdImg = document.querySelector('#bird')
 // console.log(birdImg)
@@ -76,3 +78,13 @@ birdImg.addEventListener('click', function(evt){
     portfoliosound.play()
   })
     
+  
+  
+// const favicon = document.querySelector("#favicon")
+// function changeFavicon(birdImg) {
+//   isfavicon
+// console.log(birdImg)
+// ? favicon.setAttribute('href', "assets/images/favicon.ico")
+// : favicon.setAttribute('href', "")
+
+// }
