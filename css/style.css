@@ -137,7 +137,9 @@ img.card-img-top{
 div.card-body{
   flex-wrap: nowrap;
   background-color: bisque;
+  flex-flow: nowrap;
   
+
 }
 a.btn.btn-primary{
   color:white;
@@ -154,10 +156,19 @@ a.btn.btn-primary{
   width: 200px;
   color:white;
   background: lightblue;
-  
+
 
 }
 
 .bird {
   float: bottom-left;
+}
+
+
+@media all and (max-width: 480px){
+  div.card-body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
