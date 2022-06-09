@@ -4,14 +4,6 @@ import{ myworksArray } from './portfolio-data.js'
 const cardContainer = document.getElementById('card-container')
 // console.log(cardContainer)
 
-// let project = {
-
-// title: "Tic Tac Toe",
-// image: "Snapshot of TTT",
-// description:"My first game, Tic Tac Toe!",
-// githubLink:"Here is my GH Link",
-// deploymentLink:"Here is the Site",
-// }
 
 let projectMarkup = myworksArray.map(project =>
   `
