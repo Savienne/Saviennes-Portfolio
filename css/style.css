@@ -117,3 +117,47 @@ float: right;
   .h1 {
     color: white;
   }
+
+  
+div#card-container {
+  display: flex;
+  float: right;
+  flex-wrap: nowrap;
+  max-height: 5px;
+  flex-flow: row-wrap;
+  color: black;
+}
+
+img.card-img-top{
+  height: 90px;
+  width: 90px;
+  flex-wrap: nowrap;
+}
+
+div.card-body{
+  flex-wrap: nowrap;
+  background-color: bisque;
+  
+}
+a.btn.btn-primary{
+  color:white;
+  background: lightblue;
+  height: 55.55px;
+  width: 48px
+
+
+}
+
+.BtnPos {
+  display: flex;
+  flex-direction: column; 
+  width: 200px;
+  color:white;
+  background: lightblue;
+  
+
+}
+
+.bird {
+  float: bottom-left;
+}

@@ -4,18 +4,17 @@ const cardContainer = document.getElementById('card-container')
 let projectMarkup = myworksArray.map(project =>
   `
   <div class="card text-center" style="width: 18rem;">
-  <img src="${project.image}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">${project.title}Card title</h5>
-    <p class="card-text">${project.description}Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="${project.github}" class="btn btn-primary">Go somewhere</a>
-    <a href="${project.deployment}" class="btn btn-secondary"> Deployment</a>
-    
-  </div>
-  </div>
+    <div class="card-body">
+      <img src="${project.image}" class="card-img-top" alt="...">
+      <h5 class="card-title">${project.title}</h5>
+      <div class="BtnPos">    
+        <a href="${project.githubLink}" class="Btn Pos ">GitHub</a>
+        <a href="${project.deploymentLink}" class="Bton Pos "> Play Game!</a>
+      </div>
+    </div>
   </div>
 `
-).join()
+).join('')
 cardContainer.innerHTML = projectMarkup
 // console.log(projectMarkup)
 
