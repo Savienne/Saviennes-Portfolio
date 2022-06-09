@@ -186,7 +186,7 @@ a.btn.btn-primary{
 }
 
 @media all and (max-width:480px) {
-  body{
+  .body{
     background-size: cover;
   }
   
