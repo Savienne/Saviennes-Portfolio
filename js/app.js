@@ -1,9 +1,5 @@
 import{ myworksArray } from './portfolio-data.js'
-// console.log(myworksArray)
-
 const cardContainer = document.getElementById('card-container')
-// console.log(cardContainer)
-
 
 let projectMarkup = myworksArray.map(project =>
   `
@@ -21,8 +17,7 @@ let projectMarkup = myworksArray.map(project =>
 `
 ).join()
 cardContainer.innerHTML = projectMarkup
-console.log(projectMarkup)
-
+// console.log(projectMarkup)
 
 const lightDarkBtn = document.querySelector("#light-dark-button")
 lightDarkBtn.addEventListener("click", toggleLightDark)
@@ -63,23 +58,20 @@ window.onclick = function(e){
 }
 
 const birdSays = new Audio('assets/audio/realbirdsound.mp3')
-  
-const birdImg = document.querySelector('#bird')
-// console.log(birdImg)
-birdImg.addEventListener('click', function(evt){
+  const birdImg = document.querySelector('#bird')
+    birdImg.addEventListener('click', function(evt){
+      birdSays.volume = .20
+      birdSays.play()
+  })
   // console.log(evt.target)
-  birdSays.volume = .20
-  birdSays.play()
+  // console.log(birdImg)
+
+modalBtn.addEventListener('click', function(evt){
+  portfoliosound.volume = .10
+    portfoliosound.play()
 })
 
-  modalBtn.addEventListener('click', function(evt){
-    console.log(evt.target)
-    portfoliosound.volume = .10
-    portfoliosound.play()
-  })
-    
-  
-  
+console.log(evt.target)
 // const favicon = document.querySelector("#favicon")
 // function changeFavicon(birdImg) {
 //   isfavicon
