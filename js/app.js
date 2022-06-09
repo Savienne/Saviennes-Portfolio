@@ -70,12 +70,6 @@ birdImg.addEventListener('click', function(evt){
   birdSays.play()
 })
 
-
-
-
-
-
-
   modalBtn.addEventListener('click', function(evt){
     console.log(evt.target)
     portfoliosound.volume = .10
