@@ -165,14 +165,14 @@ a.btn.btn-primary{
 }
 
 
-@media all and (max-width: 480px){
+/* @media all and (max-width: 480px){
   div.card-body{
     width: 200px;
     padding: 0;
     margin: 0;
     flex-direction: row;
   }
-}
+} */
 
 @media only screen and (max-width:768px) {
   body{
@@ -183,4 +183,8 @@ a.btn.btn-primary{
     max-width: 70%;
     max-height: 40%;
   }
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-O{
+  height: 50px;
 }
