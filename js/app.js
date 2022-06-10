@@ -66,12 +66,3 @@ modalBtn.addEventListener('click', function(evt){
   portfoliosound.volume = .10
     portfoliosound.play()
 })
-
-// const favicon = document.querySelector("#favicon")
-// function changeFavicon(birdImg) {
-//   isfavicon
-// console.log(birdImg)
-// ? favicon.setAttribute('href', "assets/images/favicon.ico")
-// : favicon.setAttribute('href', "")
-
-// }
