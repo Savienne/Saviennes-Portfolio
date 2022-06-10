@@ -8,7 +8,7 @@ What are you waiting for? Come see for yourself! (Click link below)
 
 Screenshot(Preview) 
 
-
+![Screenshot](assets/images/snapforportfolio.png)
 
 
 
