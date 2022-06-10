@@ -7,8 +7,7 @@ What are you waiting for? Come see for yourself! (Click link below)
 🟢 https://saviennes-portfolio.netlify.app
 
 Screenshot(Preview) 
-
-
+snapforportfolio.png
 Wanna See behind the scenes? Heres the process below🚧
 
 🟢Getting Started
