@@ -33,7 +33,9 @@ Credits 🤝
 
 https://getbootstrap.com/
 
+https://medium.com/@nerdplusdog/a-how-to-guide-for-modal-boxes-with-javascript-html-and-css-6a49d063987e
+
 Ice Box (Future Items) 
 ----------------------
 
-
+More games, styling, and fun interactive features. Stay tuned!
