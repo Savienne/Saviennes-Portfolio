@@ -8,15 +8,6 @@ What are you waiting for? Come see for yourself! (Click link below)
 
 Screenshot(Preview) 
 
-![Screenshot](https://https://github.com/Savienne/Saviennes-Portfolio/blob/main/README.md/to/ assets/images/snapforportfolio.png)
-
-
-
-
-
-
-
-
 Wanna See behing the scenes? Heres the process below🚧
 
 🟢Getting Started
