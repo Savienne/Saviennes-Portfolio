@@ -8,18 +8,25 @@ What are you waiting for? Come see for yourself! (Click link below)
 
 Screenshot(Preview) ->
 
-Wanna See behing the scenes? Heres the process 🚧
+Wanna See behing the scenes? Heres the process below🚧
 
+🟢Getting Started
+-------------------
+https://trello.com/b/Tuf3OODI/unit-1-project
 
-🟢Getting Started -> https://trello.com/b/Tuf3OODI/unit-1-project
-🟢Portfolio -> https://github.com/Savienne/Saviennes-Portfolio.git
-🟢Portfolio Planning (Behind the scenes) -> https://whimsical.com/savys-portfolio-3QuG9s5YZq37z9G1CvthnK
+🟢Github Portfolio 
+------------------
+https://github.com/Savienne/Saviennes-Portfolio.git
+
+🟢Portfolio Planning
+------------------
+ https://whimsical.com/savys-portfolio-3QuG9s5YZq37z9G1CvthnK
 
 Technologies Used 💻
 ------------------
-HTML
-CSS
-Javascript
+1.HTML
+2.CSS
+3.Javascript
 
 Credits 🤝
 ------------------
