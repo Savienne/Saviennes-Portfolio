@@ -174,22 +174,9 @@ a.btn.btn-primary{
   }
 }
 
-/* @media all and (max-width:400px){
-  div#card-container {
-  max-width: 70%;
-  max-height: 40%;
-  padding: 0;
-  margin: 0;
-  flex-direction: row;
-  float: right;
-} */
-
-/* } */
-
 @media only screen and (max-width:768px) {
   body{
     background-size: cover;
-    /* border: 10px solid red; */
     height: 200vh;
   }
   div#card-container {

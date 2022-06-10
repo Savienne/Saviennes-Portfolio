@@ -16,7 +16,6 @@ let projectMarkup = myworksArray.map(project =>
 `
 ).join('')
 cardContainer.innerHTML = projectMarkup
-// console.log(projectMarkup)
 
 const lightDarkBtn = document.querySelector("#light-dark-button")
 lightDarkBtn.addEventListener("click", toggleLightDark)
@@ -62,15 +61,12 @@ const birdSays = new Audio('assets/audio/realbirdsound.mp3')
       birdSays.volume = .20
       birdSays.play()
   })
-  // console.log(evt.target)
-  // console.log(birdImg)
 
 modalBtn.addEventListener('click', function(evt){
   portfoliosound.volume = .10
     portfoliosound.play()
 })
 
-console.log(evt.target)
 // const favicon = document.querySelector("#favicon")
 // function changeFavicon(birdImg) {
 //   isfavicon
